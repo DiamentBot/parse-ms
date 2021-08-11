@@ -1,4 +1,4 @@
-module.exports = parseMilliseconds(milliseconds) {
+module.exports = parseMilliseconds(milliseconds) => {
 	if (typeof milliseconds !== 'number') {
 		throw new TypeError('Expected a number');
 	}
